@@ -1,0 +1,27 @@
+# ninja log v6
+641	1591	1753794402727378531	CMakeFiles/RadioPlayer.dir/icystreamfetcher.cpp.o	9344cc43cf1b31b3
+604	1726	1753798129189559026	CMakeFiles/RadioPlayer.dir/main.cpp.o	f06fb6f01cbdb0f9
+152	1406	1753798927019634803	CMakeFiles/RadioPlayer.dir/mainwindow.cpp.o	1b7bdc3207724adb
+587	2762	1753448986222200713	CMakeFiles/RadioPlayer.dir/RadioPlayer_autogen/EWIEGA46WW/qrc_resources.cpp.o	ad25d3b20e590dd5
+28	274	1753776123954079133	build.ninja	a2c248d8dc582cdd
+104	152	1753798926971186070	RadioPlayer_autogen/timestamp	31b2415c8cf2b735
+604	1695	1753798129189406276	CMakeFiles/RadioPlayer.dir/RadioPlayer_autogen/mocs_compilation.cpp.o	88ec76f84bce21d8
+104	152	1753798926971186070	/Users/batuhancalin/RadioPlayer/build/Qt_6_9_1_for_macOS-Debug/RadioPlayer_autogen/timestamp	31b2415c8cf2b735
+104	152	1753798926971186070	/Users/batuhancalin/RadioPlayer/build/Qt_6_9_1_for_macOS-Debug/RadioPlayer_autogen/mocs_compilation.cpp	31b2415c8cf2b735
+435	586	1753448986219468875	/Users/batuhancalin/RadioPlayer/build/Qt_6_9_1_for_macOS-Debug/RadioPlayer_autogen/EWIEGA46WW/qrc_resources.cpp	442f64c467457c92
+435	586	1753448986219468875	RadioPlayer_autogen/EWIEGA46WW/qrc_resources.cpp	442f64c467457c92
+1406	1601	1753798928273791327	RadioPlayer.app/Contents/MacOS/RadioPlayer	e567940a33fd2e63
+104	152	1753798926971186070	RadioPlayer_autogen/mocs_compilation.cpp	31b2415c8cf2b735
+47	900	1753773869389343982	CMakeFiles/RadioPlayer.dir/Icystreamfetcher.cpp.o	31be2efa67be4ee1
+103	151	1753799348147723584	RadioPlayer_autogen/timestamp	31b2415c8cf2b735
+103	151	1753799348147723584	RadioPlayer_autogen/mocs_compilation.cpp	31b2415c8cf2b735
+103	151	1753799348147723584	/Users/batuhancalin/RadioPlayer/build/Qt_6_9_1_for_macOS-Debug/RadioPlayer_autogen/timestamp	31b2415c8cf2b735
+103	151	1753799348147723584	/Users/batuhancalin/RadioPlayer/build/Qt_6_9_1_for_macOS-Debug/RadioPlayer_autogen/mocs_compilation.cpp	31b2415c8cf2b735
+151	1447	1753799348195864719	CMakeFiles/RadioPlayer.dir/mainwindow.cpp.o	1b7bdc3207724adb
+1447	1649	1753799349491947451	RadioPlayer.app/Contents/MacOS/RadioPlayer	e567940a33fd2e63
+13	63	1753852905655131145	RadioPlayer_autogen/timestamp	31b2415c8cf2b735
+13	63	1753852905655131145	RadioPlayer_autogen/mocs_compilation.cpp	31b2415c8cf2b735
+13	63	1753852905655131145	/Users/batuhancalin/RadioPlayer/build/Qt_6_9_1_for_macOS-Debug/RadioPlayer_autogen/timestamp	31b2415c8cf2b735
+13	63	1753852905655131145	/Users/batuhancalin/RadioPlayer/build/Qt_6_9_1_for_macOS-Debug/RadioPlayer_autogen/mocs_compilation.cpp	31b2415c8cf2b735
+63	1086	1753852905704889222	CMakeFiles/RadioPlayer.dir/mainwindow.cpp.o	1b7bdc3207724adb
+1086	1286	1753852906727942178	RadioPlayer.app/Contents/MacOS/RadioPlayer	e567940a33fd2e63

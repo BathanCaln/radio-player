@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_RadioPlayer_FILE /Users/batuhancalin/RadioPlayer/build/Qt_6_9_1_for_macOS-Debug/RadioPlayer.app/Contents/MacOS/RadioPlayer)
+set(__QT_DEPLOY_TARGET_RadioPlayer_TYPE EXECUTABLE)

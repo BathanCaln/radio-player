@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>312</width>
+    <height>648</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Radio Player</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+    background-color: #1C1A27; /* koyu gri arka plan */
+    color: #ffffff;           /* metinler beyaz */
+    font-family: &quot;Segoe UI&quot;, sans-serif;
+    font-size: 14px;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QGroupBox" name="groupBoxRadios">
+      <property name="styleSheet">
+       <string notr="true">QGroupBox {
+    border: 1px solid #5a5a5a;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+    color: white;
+    padding: 0 3px;
+}
+</string>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayoutRadios">
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:700;&quot;&gt;Hazır Radyolar&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnYeniRap">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: #E8083E; /* koyu kırmızı */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+}
+QPushButton:hover {
+    background-color: #a30000;
+}
+QPushButton:pressed {
+    background-color: #5c0000;
+}
+</string>
+         </property>
+         <property name="text">
+          <string>YeniRap FM</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnVirgin">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: #E8083E; /* koyu kırmızı */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+}
+QPushButton:hover {
+    background-color: #a30000;
+}
+QPushButton:pressed {
+    background-color: #5c0000;
+}
+</string>
+         </property>
+         <property name="text">
+          <string>Virgin FM</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="btnJoyTurk">
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: #E8083E; /* koyu kırmızı */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+}
+QPushButton:hover {
+    background-color: #a30000;
+}
+QPushButton:pressed {
+    background-color: #5c0000;
+}
+</string>
+         </property>
+         <property name="text">
+          <string>JoyTürk FM</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout">
+      <item>
+       <widget class="QLabel" name="labelUrl">
+        <property name="text">
+         <string>Manuel URL:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEditUrl">
+        <property name="styleSheet">
+         <string notr="true">QLineEdit {
+    background-color: #3c3c3c;
+    color: white;
+    border: 1px solid #5a5a5a;
+    border-radius: 4px;
+    padding: 4px;
+}
+QLineEdit:focus {
+    border: 1px solid #ff5555;
+}</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnPlayManual">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background-color: #E8083E; /* koyu kırmızı */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+}
+QPushButton:hover {
+    background-color: #a30000;
+}
+QPushButton:pressed {
+    background-color: #5c0000;
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Oynat</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="labelNowPlaying">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout">
+      <item>
+       <widget class="QLabel" name="labelVolume">
+        <property name="text">
+         <string>Ses:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSlider" name="sliderVolume">
+        <property name="styleSheet">
+         <string notr="true">QSlider::groove:horizontal {
+    height: 6px;
+    background: #555;
+    border-radius: 3px;
+}
+QSlider::handle:horizontal {
+    background: #E8083E;
+    border: none;
+    width: 14px;
+    height: 14px;
+    margin: -4px 0;
+    border-radius: 7px;
+}
+QSlider::handle:horizontal:hover {
+    background: #a30000;
+}
+</string>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Orientation::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="labelGif">
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignmentFlag::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="labelDurum">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Durum: Bekleniyor&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; font-weight:700;&quot;&gt;Geçmiş Şarkılar&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QListView" name="listViewHistory"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnStop">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #E8083E; /* koyu kırmızı */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+}
+QPushButton:hover {
+    background-color: #a30000;
+}
+QPushButton:pressed {
+    background-color: #5c0000;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Durdur</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

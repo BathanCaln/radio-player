@@ -1,0 +1,26 @@
+{
+	"BUILD_DIR" : "/Users/batuhancalin/RadioPlayer/build/Qt_6_9_1_for_macOS-Debug/RadioPlayer_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/batuhancalin/RadioPlayer/build/Qt_6_9_1_for_macOS-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/batuhancalin/RadioPlayer/build/Qt_6_9_1_for_macOS-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/batuhancalin/RadioPlayer",
+	"CMAKE_SOURCE_DIR" : "/Users/batuhancalin/RadioPlayer",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "/Users/batuhancalin/RadioPlayer/build/Qt_6_9_1_for_macOS-Debug/RadioPlayer_autogen/include",
+	"INPUTS" : 
+	[
+		"/Users/batuhancalin/RadioPlayer/djcats.gif",
+		"/Users/batuhancalin/RadioPlayer/saddog.gif"
+	],
+	"LOCK_FILE" : "/Users/batuhancalin/RadioPlayer/build/Qt_6_9_1_for_macOS-Debug/CMakeFiles/RadioPlayer_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/Users/batuhancalin/Qt/6.9.1/macos/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/Users/batuhancalin/RadioPlayer/build/Qt_6_9_1_for_macOS-Debug/CMakeFiles/RadioPlayer_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/Users/batuhancalin/RadioPlayer/resources.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}
